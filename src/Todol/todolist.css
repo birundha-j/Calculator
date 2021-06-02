@@ -1,0 +1,52 @@
+.container{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.todoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoListMar{
+    margin-right: 5px;
+}
+
+.todoInput{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-right: 5px
+}
+
+.todoInput:hover{
+    background-color: #dedefb;
+}
+
+.todoInput:focus{
+ outline: none;
+}
+
+.btnColor{
+    background-color: #5160b9;
+    color: white;
+    outline: none;
+    border: 1px solid #5160b9;
+    cursor: pointer;
+}
+.inputbox{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: blueviolet;
+}
+.inputbox:hover{
+    background-color: rgba(186, 169, 202, 0.644);
+}

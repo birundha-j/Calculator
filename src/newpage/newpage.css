@@ -1,0 +1,63 @@
+#image
+{
+    width :80px;
+    height: auto;
+}
+#content
+{
+    background-repeat: no-repeat;
+    background: cross-fade();
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: hsl(328, 89%, 55%);
+}
+table{
+    border: rgb(241, 102, 92);
+}
+table,tr,td
+{
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+}
+
+#button1:hover
+{
+    position:static;
+    font-weight: bolder;
+    background-color:   crimson; /* Green */
+    color: white;
+    float: left;
+    cursor: pointer;
+}
+div{
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 75%;
+    background-image: url('./backround.jpg');
+}
+#markHide
+{
+    font-weight: bold;
+    justify-content: start;
+    justify-content: center;
+    text-align: center;
+    /* float: left; */
+}
+.Fieldsname{
+    color:crimson;
+}
+.inputbox{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(200, 73, 98);
+    /* border-width: 100px; */
+    border-collapse: collapse;
+    /* line-width: 100px; */
+    /* max-lines: 500px; */
+    widows: 500px;
+}

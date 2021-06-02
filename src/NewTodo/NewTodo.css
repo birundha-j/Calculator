@@ -1,0 +1,42 @@
+.container{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.todospace{
+    margin-right: 5px;
+}
+.todolist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btncolor{
+    background:none;
+    margin-right:10px;
+    margin-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    
+}
+.Todobutton{
+    background-color: blueviolet;
+    color: white;
+    padding: 2px 2px;
+}
+.inputbox{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: blueviolet;
+}
+.inputbox:hover{
+    background-color: rgba(186, 169, 202, 0.644);
+}
+.btncolor:hover{
+    background-color: rgb(169, 121, 214);
+    cursor: pointer;
+    border-radius: 50px;
+}

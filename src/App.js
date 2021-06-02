@@ -1,23 +1,21 @@
+import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import NameChange from "./propsText";
+
 
 function App() {
+
+  const [name,setname]= useState("Ranjith");
+
+  function nameChange(){
+    setname("Ranjith Don")
+  }
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NameChange name={name} /><br></br>
+      <button onClick={()=> nameChange()}>click me</button>
     </div>
   );
 }
